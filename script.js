@@ -45,7 +45,15 @@ function getsound (arrr)
 }
 
 
+	set soundFound (degree){
+		if(this. facingSound==true){
+			this.degree = 0;
+		}
+	}
 
+	degree = 0;
+	console.log (degree);
+}
 
 // Code from W3 about how to use fuctions
 let x = myFunction(4, 3);
